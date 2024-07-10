@@ -1,0 +1,47 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+ </head>
+ <body>
+    <div class="images">
+        <div class="image" id="stone">
+            <img src="stone-removebg-preview.png" alt="">
+        </div>
+        <div class="image" id="paper">
+            <img src="paper-removebg-preview.png" alt="">
+        </div>
+        <div class="image" id="scissor">
+            <img src="scissor-removebg-preview.png" alt="">
+        </div>
+    </div>
+
+    <div class="scores">
+        <div class="your-score">
+            <h1 >your score</h1>
+            <h2 id ="your-score">0</h2>
+        </div>
+        <div class="comp-score">
+            <h1>comp score</h1>
+            <h2 id="comp-score">0</h2>
+        </div>
+    </div>
+
+    <div class="result">
+        <h2 id="res">Play!</h2>
+        <button style="padding: 10px; 
+        border-radius: 20px; 
+        background-color: black; 
+        color: white; 
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: capitalize; cursor: pointer;" 
+        
+        onclick="window.location.reload()"
+        >Play From First</button>
+    </div>
+    <script src="script.js"></script>
+ </body>
+ </html>
